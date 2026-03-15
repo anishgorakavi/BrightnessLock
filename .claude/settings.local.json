@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/anishgorakavi/AndroidStudioProjects/BrightnessLock -not -path */.* -not -path */.gradle/* -not -path */build/*)",
+      "Bash(find /Users/anishgorakavi/AndroidStudioProjects/BrightnessLock -type f -name *.kts -o -name *.gradle)",
+      "Bash(grep -E \"\\\\.\\(json|xml|properties|gradle|kts|env|py\\)$\")",
+      "Bash(find /Users/anishgorakavi/AndroidStudioProjects/BrightnessLock -type f \\\\\\(-name AndroidManifest.xml -o -name *.kt \\\\\\))"
+    ]
+  }
+}
